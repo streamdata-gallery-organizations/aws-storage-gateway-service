@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateGatewaySoftwareNow&k=1:
+  /?Action=UpdateGatewaySoftwareNow:
     get:
       summary: ' Update Gateway Software Now '
       description: Updates the gateway virtual machine (VM) software
