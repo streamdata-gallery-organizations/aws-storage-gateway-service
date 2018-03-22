@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddCache&k=1:
+  /?Action=AddCache:
     get:
       summary: ' Add Cache '
       description: Configures one or more gateway local disks as cache for a cached-volume
