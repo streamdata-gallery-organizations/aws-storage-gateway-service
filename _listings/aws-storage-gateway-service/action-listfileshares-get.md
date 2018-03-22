@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListFileShares&k=1:
+  /?Action=ListFileShares:
     get:
       summary: ' List File Shares '
       description: Gets a list of the file shares for a specific file gateway, or
