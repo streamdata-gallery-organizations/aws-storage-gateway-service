@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateVTLDeviceType&k=1:
+  /?Action=UpdateVTLDeviceType:
     get:
       summary: ' Update VTL Device Type '
       description: Updates the type of medium changer in a gateway-VTL
