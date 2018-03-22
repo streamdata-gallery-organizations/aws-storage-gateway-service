@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisableGateway&k=1:
+  /?Action=DisableGateway:
     get:
       summary: ' Disable Gateway '
       description: Disables a gateway when the gateway is no longer functioning
