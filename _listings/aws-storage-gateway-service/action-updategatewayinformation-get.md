@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateGatewayInformation&k=1:
+  /?Action=UpdateGatewayInformation:
     get:
       summary: ' Update Gateway Information '
       description: Updates a gateway's metadata, which includes the gateway's name
