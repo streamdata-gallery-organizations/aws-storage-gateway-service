@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetLocalConsolePassword&k=1:
+  /?Action=SetLocalConsolePassword:
     get:
       summary: ' Set Local Console Password '
       description: Sets the password for your VM local console
