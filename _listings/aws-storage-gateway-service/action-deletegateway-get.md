@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteGateway&k=1:
+  /?Action=DeleteGateway:
     get:
       summary: ' Delete Gateway '
       description: Deletes a gateway
