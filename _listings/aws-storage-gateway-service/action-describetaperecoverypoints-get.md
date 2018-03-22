@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTapeRecoveryPoints&k=1:
+  /?Action=DescribeTapeRecoveryPoints:
     get:
       summary: ' Describe Tape Recovery Points '
       description: |-
