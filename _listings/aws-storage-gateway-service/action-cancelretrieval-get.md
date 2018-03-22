@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelRetrieval&k=1:
+  /?Action=CancelRetrieval:
     get:
       summary: ' Cancel Retrieval '
       description: |-
