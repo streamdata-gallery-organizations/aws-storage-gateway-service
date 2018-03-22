@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeUploadBuffer&k=1:
+  /?Action=DescribeUploadBuffer:
     get:
       summary: ' Describe Upload Buffer '
       description: Returns information about the upload buffer of a gateway
