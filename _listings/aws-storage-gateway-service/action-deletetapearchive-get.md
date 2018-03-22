@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteTapeArchive&k=1:
+  /?Action=DeleteTapeArchive:
     get:
       summary: ' Delete Tape Archive '
       description: Deletes the specified virtual tape from the virtual tape shelf
@@ -26,7 +26,8 @@ paths:
         200:
           description: OK
       tags:
-      - tape archive
+      - tapes
+      - archives
 definitions: []
 x-collection-name: AWS Storage Gateway Service
 x-streamrank:
