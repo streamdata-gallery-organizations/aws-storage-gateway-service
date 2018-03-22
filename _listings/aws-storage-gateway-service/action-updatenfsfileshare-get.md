@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateNFSFileShare&k=1:
+  /?Action=UpdateNFSFileShare:
     get:
       summary: ' Update NFS File Share '
       description: Updates a file share
