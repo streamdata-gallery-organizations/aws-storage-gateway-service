@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeMaintenanceStartTime&k=1:
+  /?Action=DescribeMaintenanceStartTime:
     get:
       summary: ' Describe Maintenance Start Time '
       description: |-
