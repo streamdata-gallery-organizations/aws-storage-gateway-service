@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateTapeWithBarcode&k=1:
+  /?Action=CreateTapeWithBarcode:
     get:
       summary: ' Create Tape With Barcode '
       description: Creates a virtual tape by using your own barcode
