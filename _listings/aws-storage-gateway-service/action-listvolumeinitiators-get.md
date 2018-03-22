@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListVolumeInitiators&k=1:
+  /?Action=ListVolumeInitiators:
     get:
       summary: ' List Volume Initiators '
       description: Lists iSCSI initiators that are connected to a volume
