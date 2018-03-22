@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCachediSCSIVolume&k=1:
+  /?Action=CreateCachediSCSIVolume:
     get:
       summary: ' Create Cached SCSI Volume '
       description: Creates a cached volume on a specified cached gateway
