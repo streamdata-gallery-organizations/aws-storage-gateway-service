@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCache&k=1:
+  /?Action=DescribeCache:
     get:
       summary: ' Describe Cache '
       description: Returns information about the cache of a gateway
