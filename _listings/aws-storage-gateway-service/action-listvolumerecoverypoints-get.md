@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListVolumeRecoveryPoints&k=1:
+  /?Action=ListVolumeRecoveryPoints:
     get:
       summary: ' List Volume Recovery Points '
       description: Lists the recovery points for a specified gateway
