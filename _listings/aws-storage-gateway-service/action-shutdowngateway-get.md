@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ShutdownGateway&k=1:
+  /?Action=ShutdownGateway:
     get:
       summary: ' Shutdown Gateway '
       description: Shuts down a gateway
