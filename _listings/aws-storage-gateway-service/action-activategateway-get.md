@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ActivateGateway&k=1:
+  /?Action=ActivateGateway:
     get:
       summary: ' Activate Gateway '
       description: Activates the gateway you previously deployed on your host
