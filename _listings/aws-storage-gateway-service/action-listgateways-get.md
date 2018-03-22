@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListGateways&k=1:
+  /?Action=ListGateways:
     get:
       summary: ' List Gateways '
       description: Lists gateways owned by an AWS account in a region specified in
