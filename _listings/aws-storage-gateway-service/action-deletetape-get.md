@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteTape&k=1:
+  /?Action=DeleteTape:
     get:
       summary: ' Delete Tape '
       description: Deletes the specified virtual tape
