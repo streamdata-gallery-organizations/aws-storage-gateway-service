@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeGatewayInformation&k=1:
+  /?Action=DescribeGatewayInformation:
     get:
       summary: ' Describe Gateway Information '
       description: |-
