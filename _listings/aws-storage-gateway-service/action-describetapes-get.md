@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTapes&k=1:
+  /?Action=DescribeTapes:
     get:
       summary: ' Describe Tapes '
       description: Returns a description of the specified Amazon Resource Name (ARN)
