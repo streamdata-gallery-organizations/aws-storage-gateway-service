@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeBandwidthRateLimit&k=1:
+  /?Action=DescribeBandwidthRateLimit:
     get:
       summary: ' Describe Bandwidth Rate Limit '
       description: Returns the bandwidth rate limits of a gateway
