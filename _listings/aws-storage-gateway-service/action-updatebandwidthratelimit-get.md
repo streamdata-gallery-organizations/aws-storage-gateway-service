@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateBandwidthRateLimit&k=1:
+  /?Action=UpdateBandwidthRateLimit:
     get:
       summary: ' Update Bandwidth Rate Limit '
       description: Updates the bandwidth rate limits of a gateway
