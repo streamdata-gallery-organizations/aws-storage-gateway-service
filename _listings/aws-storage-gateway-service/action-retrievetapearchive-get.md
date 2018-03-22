@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RetrieveTapeArchive&k=1:
+  /?Action=RetrieveTapeArchive:
     get:
       summary: ' Retrieve Tape Archive '
       description: |-
@@ -32,7 +32,8 @@ paths:
         200:
           description: OK
       tags:
-      - tape archive
+      - tapes
+      - archives
 definitions: []
 x-collection-name: AWS Storage Gateway Service
 x-streamrank:
