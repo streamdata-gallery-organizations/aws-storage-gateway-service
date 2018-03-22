@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ResetCache&k=1:
+  /?Action=ResetCache:
     get:
       summary: ' Reset Cache '
       description: |-
