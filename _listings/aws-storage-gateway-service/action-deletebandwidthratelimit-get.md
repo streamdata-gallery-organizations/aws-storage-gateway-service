@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteBandwidthRateLimit&k=1:
+  /?Action=DeleteBandwidthRateLimit:
     get:
       summary: ' Delete Bandwidth Rate Limit '
       description: Deletes the bandwidth rate limits of a gateway
