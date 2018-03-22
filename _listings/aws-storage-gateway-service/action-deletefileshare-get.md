@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteFileShare&k=1:
+  /?Action=DeleteFileShare:
     get:
       summary: ' Delete File Share '
       description: Deletes a file share from a file gateway
