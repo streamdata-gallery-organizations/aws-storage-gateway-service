@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateNFSFileShare&k=1:
+  /?Action=CreateNFSFileShare:
     get:
       summary: ' Create NFS File Share '
       description: Creates a file share on an existing file gateway
