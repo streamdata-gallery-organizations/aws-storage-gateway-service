@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateTapes&k=1:
+  /?Action=CreateTapes:
     get:
       summary: ' Create Tapes '
       description: Creates one or more virtual tapes
