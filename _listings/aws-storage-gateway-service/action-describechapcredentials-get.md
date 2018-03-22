@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeChapCredentials&k=1:
+  /?Action=DescribeChapCredentials:
     get:
       summary: ' Describe Chap Credentials '
       description: |-
