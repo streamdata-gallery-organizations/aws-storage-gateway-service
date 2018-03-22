@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateStorediSCSIVolume&k=1:
+  /?Action=CreateStorediSCSIVolume:
     get:
       summary: ' Create Stored SCSI Volume '
       description: Creates a volume on a specified gateway
