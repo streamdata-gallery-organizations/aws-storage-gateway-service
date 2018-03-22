@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListTapes&k=1:
+  /?Action=ListTapes:
     get:
       summary: ' List Tapes '
       description: |-
