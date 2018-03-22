@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RetrieveTapeRecoveryPoint&k=1:
+  /?Action=RetrieveTapeRecoveryPoint:
     get:
       summary: ' Retrieve Tape Recovery Point '
       description: Retrieves the recovery point for the specified virtual tape
