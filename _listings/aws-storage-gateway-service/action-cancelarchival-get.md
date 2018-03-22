@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelArchival&k=1:
+  /?Action=CancelArchival:
     get:
       summary: ' Cancel Archival '
       description: |-
