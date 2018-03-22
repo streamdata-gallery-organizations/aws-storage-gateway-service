@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddUploadBuffer&k=1:
+  /?Action=AddUploadBuffer:
     get:
       summary: ' Add Upload Buffer '
       description: Configures one or more gateway local disks as upload buffer for
