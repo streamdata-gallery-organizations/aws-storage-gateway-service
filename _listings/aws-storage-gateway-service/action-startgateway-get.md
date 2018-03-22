@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartGateway&k=1:
+  /?Action=StartGateway:
     get:
       summary: ' Start Gateway '
       description: Starts a gateway that you previously shut down (see
