@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeNFSFileShares&k=1:
+  /?Action=DescribeNFSFileShares:
     get:
       summary: ' Describe NFS File Shares '
       description: Gets a description for one or more file shares from a file gateway
