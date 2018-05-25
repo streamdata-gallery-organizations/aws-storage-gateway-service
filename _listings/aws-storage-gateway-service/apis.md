@@ -1,7 +1,7 @@
 ---
 name: AWS Storage Gateway Service
 x-slug: aws-storage-gateway-service
-description: 'The AWS Storage Gateway service seamlessly enables hybrid storage between
+description: The AWS Storage Gateway service seamlessly enables hybrid storage between
   on-premises storage environments andthe AWS Cloud. It combines a multi-protocol
   storage appliance with highly efficient network connectivity toAmazon cloud storageservices,
   delivering local performance with virtually unlimited scale. Customers use it in
@@ -10,13 +10,13 @@ description: 'The AWS Storage Gateway service seamlessly enables hybrid storage 
   seamlessly to your local infrastructure as a file server, as a volume, or as a virtual
   tape library (VTL). This seamless connection makes it simple for organizations to
   augment existing on-premises storage investments with the high scalability, extreme
-  durability and low cost of cloud storage. '
+  durability and low cost of cloud storage.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
 x-kinRank: "10"
 x-alexaRank: ""
 tags: AWS Storage Gateway Service
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-storage-gateway-service/master/_listings/aws-storage-gateway-service/apis.md
 specificationVersion: "0.14"
 apis:
@@ -734,8 +734,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-storage-gateway-service/master/_listings/aws-storage-gateway-service/actionupdatevtldevicetype-get-openapi.md
 - name: AWS Storage Gateway Service API
   x-api-slug: aws-storage-gateway-service-api
-  description: 'The AWS Storage Gateway service seamlessly enables hybrid storage
-    between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol
+  description: The AWS Storage Gateway service seamlessly enables hybrid storage between
+    on-premises storage environments andthe AWS Cloud. It combines a multi-protocol
     storage appliance with highly efficient network connectivity toAmazon cloud storageservices,
     delivering local performance with virtually unlimited scale. Customers use it
     in remote offices and datacenters for hybrid cloud workloads, backup and restore,
@@ -743,7 +743,7 @@ apis:
     connects seamlessly to your local infrastructure as a file server, as a volume,
     or as a virtual tape library (VTL). This seamless connection makes it simple for
     organizations to augment existing on-premises storage investments with the high
-    scalability, extreme durability and low cost of cloud storage. '
+    scalability, extreme durability and low cost of cloud storage.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
   humanURL: https://aws.amazon.com/storagegateway/
   baseURL: :///
