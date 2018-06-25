@@ -5,7 +5,7 @@ description: This is a repository of aws storage gateway service APIs, self-cont
   surrounding operations.
 image: http://template.streamdata.gallery/assets/aws-storage-gateway-service.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://aws-storage-gateway-service.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
